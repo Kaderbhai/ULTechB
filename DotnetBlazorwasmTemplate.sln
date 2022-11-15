@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetBlazorwasmTemplate", "DotnetBlazorwasmTemplate\DotnetBlazorwasmTemplate.csproj", "{DB1A386A-E8FC-48CE-8D32-46F5914EADF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{36951DFA-8E3B-48ED-8A1D-7B3EB5FCB7E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetBlazorwasmTemplateTests", "Tests\DotnetBlazorwasmTemplateTests\DotnetBlazorwasmTemplateTests.csproj", "{34BE8FAF-353D-4E4C-A687-F24DA5B13318}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB1A386A-E8FC-48CE-8D32-46F5914EADF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB1A386A-E8FC-48CE-8D32-46F5914EADF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB1A386A-E8FC-48CE-8D32-46F5914EADF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB1A386A-E8FC-48CE-8D32-46F5914EADF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BE8FAF-353D-4E4C-A687-F24DA5B13318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BE8FAF-353D-4E4C-A687-F24DA5B13318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BE8FAF-353D-4E4C-A687-F24DA5B13318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BE8FAF-353D-4E4C-A687-F24DA5B13318}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34BE8FAF-353D-4E4C-A687-F24DA5B13318} = {36951DFA-8E3B-48ED-8A1D-7B3EB5FCB7E1}
+	EndGlobalSection
+EndGlobal
